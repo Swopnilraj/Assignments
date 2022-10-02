@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+    
+    font-weight: bold;
+    font-size: 175%;
+color:black;
+}
+section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+
+div {
+    position: relative;
+    background-color: chocolate;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.s1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: darksalmon;
+    
+}
+.s2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: red;
+    
+}
+.s3{
+    float: right;
+    color: black;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: darkkhaki;
+
+}
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: chocolate;
+    font-family: Helvetica;
+    color: white;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+clear: right;
+}
+
+.row {
+    width: 90%;
+}
+
+/*desktop version*/
+@media (min-width: 992px){
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+/*tablet version*/
+@media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*mobile version*/
+@media (max-width: 767px){
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
